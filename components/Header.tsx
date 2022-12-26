@@ -1,4 +1,4 @@
-
+import {SearchIcon} from '@heroicons/react/solid'
 import StreemerLogo from "../public/assets/streemer.jpeg"
 function Header() {
   return (
@@ -19,6 +19,10 @@ function Header() {
               <li className="headerLink">New & Popular</li>
               <li className="headerLink">My List</li>
             </ul>
+        </div>
+
+        <div>
+          <SearchIcon className="hidden sm:inline" />
         </div>
     </header>
   )
